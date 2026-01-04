@@ -1,0 +1,20 @@
+{
+  "plugins": {
+    "instant.nvim": {
+      "rev": "294b6d08143b3db8f9db7f606829270149e1a786",
+      "src": "git@github.com:jbyuki/instant.nvim"
+    },
+    "neovim": {
+      "rev": "cf2a288696b03d0934da713d66c6d71557b5c997",
+      "src": "git@github.com:rose-pine/neovim"
+    },
+    "oil.nvim": {
+      "rev": "81b8a91735ad5cd24a6b3137f14a89f19176364f",
+      "src": "git@github.com:stevearc/oil.nvim"
+    },
+    "vim-fugitive": {
+      "rev": "61b51c09b7c9ce04e821f6cf76ea4f6f903e3cf4",
+      "src": "git@github.com:tpope/vim-fugitive"
+    }
+  }
+}
