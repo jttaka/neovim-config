@@ -9,6 +9,11 @@ vim.pack.add({
 	{ src = "git@github.com:neovim/nvim-lspconfig"},
 	{ src = "git@github.com:mason-org/mason.nvim"},
 	{ src = "git@github.com:mason-org/mason-lspconfig.nvim"},
+	{ src = "git@github.com:nvim-telescope/telescope.nvim"},
+
+	-- dependencies
+	{ src = "git@github.com:nvim-lua/plenary.nvim"},
+	{ src = "git@github.com:nvim-telescope/telescope-fzf-native.nvim"},
 
 	{ src = "git@github.com:hrsh7th/nvim-cmp" },
 	{ src = "git@github.com:hrsh7th/cmp-nvim-lsp" },
@@ -18,9 +23,4 @@ vim.pack.add({
 	{ src = "git@github.com:L3MON4D3/LuaSnip" },
 })
 
--- some setup
-require("mason").setup()
-require("oil").setup()
 
-vim.g.instant_username = "jttaka"
-vim.cmd("colorscheme rose-pine-main")

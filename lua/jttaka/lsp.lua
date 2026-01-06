@@ -3,6 +3,7 @@ local servers = {
 	"bashls",
 	"pyright",
 	"powershell_es",
+	"vimls",
 }
 
 local cmp_nvim_lsp = require("cmp_nvim_lsp")
