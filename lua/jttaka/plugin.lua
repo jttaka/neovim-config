@@ -23,4 +23,4 @@ vim.pack.add({
 	{ src = "git@github.com:L3MON4D3/LuaSnip" },
 })
 
-
+require("mason").setup()
