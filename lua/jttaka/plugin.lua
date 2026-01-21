@@ -10,6 +10,8 @@ vim.pack.add({
 	{ src = "git@github.com:mason-org/mason.nvim"},
 	{ src = "git@github.com:mason-org/mason-lspconfig.nvim"},
 	{ src = "git@github.com:nvim-telescope/telescope.nvim"},
+	{ src = "git@github.com:nvim-telescope/telescope.nvim"},
+	{ src = "git@github.com:nvim-telekasten/telekasten.nvim.git"},
 
 	-- dependencies
 	{ src = "git@github.com:nvim-lua/plenary.nvim"},

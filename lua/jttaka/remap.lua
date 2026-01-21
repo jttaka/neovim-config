@@ -24,3 +24,9 @@ end, { desc = "Toggle buffer-local floating terminal" })
 -- stevearc/oil.nvim
 vim.keymap.set("n", "-", ":Oil<CR>")
 
+-- lsp stuff
+vim.keymap.set("n", "<leader>gd", vim.lsp.buf.definition, { desc = "Go to definition" })
+vim.keymap.set("n", "<leader>k", vim.lsp.buf.hover, { desc = "Hover documentation" })
+vim.keymap.set("n", "<leader>sd", vim.diagnostic.open_float, { desc = "Show line diagnostics" })
+vim.keymap.set("n", "<leader>ad", vim.diagnostic.setloclist, { desc = "Show all diagnostics" })
+

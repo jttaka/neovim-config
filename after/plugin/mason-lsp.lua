@@ -9,8 +9,7 @@ require('mason-lspconfig').setup({
                 settings = {
                     Lua = {
                         diagnostics = {
-                            globals = { 'vim' },
-                            globals = { 'love' }
+                            globals = { 'vim', 'love', 'lspconfig' },
                         },
                     },
                 },
